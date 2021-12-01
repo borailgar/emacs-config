@@ -12,7 +12,7 @@ Used packages
 
 For the Projectile package to work correctly, replace the projectile search directory with *your* source code directory.
 ```lisp
-  (when (file-directory-p "C:\\Work\\Source")
-    (setq projectile-project-search-path '("C:\\Work\\Source")))
+  (when (file-directory-p "/path/to/projects/directory")
+    (setq projectile-project-search-path '("/path/to/projects/directory")))
   (setq projectile-switch-project-action #'projectile-dired))
 ```
