@@ -2,6 +2,7 @@
 
 Used packages
 
+- use-package
 - ggtags for source code navigation
 - yasnippet
 - flycheck
