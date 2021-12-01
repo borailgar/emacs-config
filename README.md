@@ -7,3 +7,4 @@ Used packages
 - flycheck
 - projectile for code repo management
 - ivy mode and some helper functions
+- neotree
