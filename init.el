@@ -43,8 +43,11 @@
 ;; Make ESC quit prompts
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
 
-;; Not now. Wait or configure for Unix.
+;; TODO: set compile configuration for MSVC/CMake/Makefile 
 (global-set-key (kbd "M-m") 'compile)
+
+;; switch between header & source file
+(global-set-key (kbd "M-o") 'ff-find-other-file)
 
 (load-theme 'vs-dark)
 ;; Highlight current line
