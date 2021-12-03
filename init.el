@@ -216,7 +216,7 @@
               (neotree-dir project-dir)
               (neotree-find file-name)))
       (message "Could not find git project root."))))
-(global-set-key [f8] 'neotree-project-dir)
+(global-set-key (kbd "C-b") 'neotree-project-dir)
 
 ;; Company-mode header completion
 ;; TODO: needs clang & company-irony to complete true intellisense
